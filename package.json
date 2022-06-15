@@ -1,0 +1,16 @@
+{
+  "name": "stuffed-recipe-ingredient-processor",
+  "version": "1.0.0",
+  "description": "Processes datasets and extracts desired data for StuffedRecipe database seeding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reno Philibert <hello@reno.sh>",
+  "license": "ISC",
+  "dependencies": {
+    "event-stream": "^4.0.1",
+    "JSONStream": "^1.3.5",
+    "stream-json": "^1.7.4"
+  }
+}
