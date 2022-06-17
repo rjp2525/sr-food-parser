@@ -64,30 +64,3 @@ fs.createReadStream(args[0])
       console.log("Data written to file.");
     });
   });
-
-/**
- * DATA STRUCTURE:
- * {
- *    brand: string,
- *    upc: string,
- *    description: string,
- *    country: string,
- *    label_nutrients: [
- *      {
- *        name: string,
- *        value: integer,
- *      }
- *    ],
- *    nutrients: {
- *      name: string,
- *      unit: string,
- *      amount: float,
- *      derivation: string,
- *      source: string,
- *    }
- *    serving_size: integer,
- *    serving_size_unit: string,
- *    category: string,
- *    created: string,               // (date)
- * }
- */
